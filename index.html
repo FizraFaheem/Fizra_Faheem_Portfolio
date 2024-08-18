@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to My Portfolio</h1>
+            <p class="animated-text">I am<b> FIZRA FAHEEM</b>, a Frontend Developer crafting dynamic, <br>
+                responsive web experiences with passion and precision."
+                <br><br>"Building Responsive,
+                Intuitive, and Engaging Digital Worlds."<br>"Transforming Ideas into Visually Stunning Realities."</p>
+            <button class="cta-button">Explore More</button><br>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/fizra-faheem-026400312/" target="_blank" class="social-icon"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="home.png" alt="Hero Image">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2><br><br>
+        <div class="about-content">
+            <img src="about.png" alt="About Me Picture" class="about-img">
+            <div class="about-text">
+                <p><b>"Welcome to My Digital Playground! As a passionate Frontend Developer, I transform ideas into
+                        visually stunning, responsive, and dynamic websites. With expertise in HTML, CSS, JavaScript,
+                        and
+                        cutting-edge frontend technologies, I craft seamless user experiences that not only look great
+                        but
+                        feel intuitive. Let's bring your vision to life through clean, creative, and efficient
+                        code!"</b></p>
+                <div>
+                </div>
+            </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="skill/html.png" alt="HTML5" class="skill-img">
+                <h3>HTML5</h3>
+                <p>Advanced level proficiency in HTML5.</p>
+            </div>
+            <div class="skill">
+                <img src="skill/css.png" alt="CSS3" class="skill-img">
+                <h3>CSS3</h3>
+                <p>Expertise in CSS3 for creating responsive and modern designs.</p>
+            </div>
+            <div class="skill">
+                <img src="skill/Javascript.png" alt="JavaScript" class="skill-img">
+                <h3>JavaScript</h3>
+                <p>Strong skills in JavaScript for dynamic functionality.</p>
+            </div>
+            <div class="skill">
+                <img src="skill/React.png" alt="React" class="skill-img">
+                <h3>React</h3>
+                <p>Experience in building single-page applications with React.</p>
+            </div>
+            <div class="skill">
+                <img src="skill/Typescript.png" alt="TypeScript" class="skill-img">
+                <h3>TypeScript</h3>
+                <p>Proficient in TypeScript for building robust applications.</p>
+            </div>
+            <div class="skill">
+                <img src="skill/bootstrap.png" alt="Bootstrap" class="skill-img">
+                <h3>Bootstrap</h3>
+                <p>Skilled in using Bootstrap for responsive design.</p>
+            </div>
+            <div class="skill">
+                <img src="skill/contentwriting.png" alt="Content Writing" class="skill-img">
+                <h3>Content Writing</h3>
+                <p>Experience in writing professional and engaging content.</p>
+            </div>
+            <div class="skill">
+                <img src="skill/promptengineering.png" alt="Prompt Engineering" class="skill-img">
+                <h3>Prompt Engineering</h3>
+                <p>Expertise in creating effective AI prompts.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>My Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <img src="images/image1.png" alt="Web Development" class="service-img">
+                <h3>Web Development</h3>
+                <p>Creating stunning and responsive websites.</p>
+            </div>
+            <div class="service">
+                <img src="images/image2.png" alt="UI/UX Design" class="service-img">
+                <h3>UI/UX Design</h3>
+                <p>Designing user-friendly interfaces and experiences.</p>
+            </div>
+            <div class="service">
+                <img src="images/image3.png" alt="JavaScript Applications" class="service-img">
+                <h3>JavaScript Applications</h3>
+                <p>Building dynamic and interactive web applications.</p>
+            </div>
+            <div class="service">
+                <img src="images/image4.png" alt="Web Design" class="service-img">
+                <h3>Web Design</h3>
+                <p>Designing visually appealing and user-friendly websites.</p>
+            </div>
+            <div class="service">
+                <img src="images/image5.png" alt="Graphic Design" class="service-img">
+                <h3>Graphic Design</h3>
+                <p>Creating stunning graphics and visual content.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
